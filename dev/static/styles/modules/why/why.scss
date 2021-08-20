@@ -3,10 +3,11 @@
   &__row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   &__left {
-    flex-basis: 64%;
+    flex-basis: 66%;
     padding-left: 179px;
     padding-top: 151px;
     padding-bottom: 95px;

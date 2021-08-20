@@ -24,6 +24,12 @@ ol[class] {
   list-style: none;
 }
 
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
 body,
 h1,
 h2,

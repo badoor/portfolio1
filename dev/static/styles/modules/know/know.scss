@@ -1,0 +1,54 @@
+.know {
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__left {
+    flex-basis: 33.33333%;
+    background: url('../images/content/know.jpg') left top no-repeat;
+  }
+
+  &__right {
+    flex-basis: 66.66667%;
+    padding-left: 103px;
+    padding-top: 106px;
+    padding-right: 175px;
+    padding-bottom: 42px;
+  }
+
+  &__title {
+    margin-bottom: 225px;
+    font-family: Larsseit;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 12px;
+    color: #22356F;
+  }
+
+  &__desc {
+    margin-bottom: 152px;
+    font-family: Larsseit700;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    color: #22356F;
+    letter-spacing: -0.01em;
+  }
+
+  &__logo {
+    font-family: Larsseit700;
+    font-size: 36px;
+    line-height: 53px;
+    text-decoration: none;
+    color: #6CD3E1;
+  }
+
+  &__link {
+    font-family: Larsseit700;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #FAB63E;
+  }
+}
