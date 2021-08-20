@@ -1,0 +1,25 @@
+.nav {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    margin-right: 27px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    font-family: Larsseit;
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+    color: #22356F;
+
+  }
+
+}

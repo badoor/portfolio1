@@ -1,0 +1,42 @@
+.why {
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__left {
+    flex-basis: 64%;
+    padding-left: 179px;
+    padding-top: 151px;
+    padding-bottom: 95px;
+    background-color: #62D0DF;
+    
+  }
+
+  &__title {
+    margin-bottom: 75px;
+    font-family: Larsseit700;
+    font-size: 36px;
+    line-height: 27px;
+    color: $white;
+  }
+
+  &__text {
+    width: 555px;
+    font-family: Larsseit300;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+    span {
+      font-family: Larsseit700;
+      font-size: 24px;
+    }
+  }
+
+  &__right {
+    flex-basis: 34%;
+    background: url('../images/content/why.jpg') top right no-repeat;
+  }
+}

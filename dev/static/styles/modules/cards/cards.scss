@@ -1,0 +1,79 @@
+.cards {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  &__item {
+    position: relative;
+    padding-top: 126px;
+    padding-left: 104px;
+    height: 480px;
+    background-size: cover;
+    transition-property: background;
+    transition-duration: .5s;
+    &:first-child {
+      grid-column: span 4;
+      background: url('../images/content/card1.png') top left no-repeat;
+    }
+
+    &:nth-child(2) {
+      grid-column: span 4;
+      background: url('../images/content/card2.png') top left no-repeat;
+    }
+
+    &:nth-child(3) {
+      grid-column: span 4;
+      background: url('../images/content/card3.png') top left no-repeat;
+    }
+
+    &:nth-child(4) {
+      grid-column: span 4;
+      background: url('../images/content/card4.png') top left no-repeat;
+    }
+
+    &:nth-child(5) {
+      grid-column: span 4;
+      background: url('../images/content/card5.png') top left no-repeat;
+    }
+
+    &:nth-child(6) {
+      grid-column: span 4;
+      background: url('../images/content/card6.png') top left no-repeat;
+    }
+
+    &::before {
+      position: absolute;
+      left: 72px;
+      top: 134px;
+      content: '';
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #E9B730;
+    }
+
+    &::after {
+      position: absolute;
+      left: 70px;
+      top: 96px;
+      content: '';
+      width: 340px;
+      height: 1px;
+      background-color: $white;
+    }
+
+    &:hover {
+      background: url('../images/content/joanna.jpg') top left no-repeat;
+    }
+  }
+
+  &__link {
+    font-family: Larsseit700;
+    font-size: 32px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+}

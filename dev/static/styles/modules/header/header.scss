@@ -1,1 +1,43 @@
-header { flex: 0 0 auto; }
+.header {
+  &__row {
+    padding-top: 27px;
+    padding-bottom: 75px;
+    background: url(../images/content/gb.jpg) top left no-repeat;
+    background-size: cover;
+  }
+
+  &__menu {
+    width: 1130px;
+    margin-left: 179px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__button {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background: #458C96;
+    border-radius: 50px;
+
+    &:hover {
+      background: darken(#458C96, 10);
+    }
+
+  }
+
+  &__link {
+    font-family: Larsseit700;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    color: $white;
+  }
+
+  &__intro {
+    margin-top: 241px;
+    margin-left: 179px;
+  }
+}

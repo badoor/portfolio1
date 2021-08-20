@@ -1,0 +1,66 @@
+.thumb {
+  margin-bottom: 120px;
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  &__item {
+    position: relative;
+    padding-top: 95px;
+    padding-left: 78px;
+    grid-column: span 3;
+    height: 360px;
+    transition-property: background;
+    transition-duration: .5s;
+
+    &:first-child {
+      background: url('../images/content/thumb1.png') top left no-repeat;
+    }
+
+    &:nth-child(2) {
+      background: url('../images/content/thumb2.png') top left no-repeat;
+    }
+
+    &:nth-child(3) {
+      background: url('../images/content/thumb3.png') top left no-repeat;
+    }
+
+    &:last-child {
+      background: url('../images/content/thumb4.png') top left no-repeat;
+    }
+
+    &:hover {
+      background: url('../images/content/joanna.png') top left no-repeat;
+    }
+
+    &::before {
+      position: absolute;
+      left: 51px;
+      top: 102px;
+      content: '';
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #E9B730;
+    }
+
+    &::after {
+      position: absolute;
+      left: 52.5px;
+      top: 72px;
+      content: '';
+      width: 255px;
+      height: 1px;
+      background-color: $white;
+    }
+  }
+
+  &__link {
+    font-family: Larsseit700;
+    font-size: 32px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}

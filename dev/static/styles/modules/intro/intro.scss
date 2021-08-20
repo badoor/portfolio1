@@ -1,0 +1,60 @@
+.intro {
+  &__logo {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin-bottom: 19px;
+    width: 484px;
+    height: 167px;
+    font-family: Larsseit700;
+    font-size: 48px;
+    line-height: 53px;
+
+    color: #22356F;
+  }
+
+  &__text {
+    margin-bottom: 70px;
+    width: 469px;
+    height: 161px;
+    font-family: Larsseit;
+    font-size: 24px;
+    line-height: 42px;
+
+    color: #22356F;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__buttons {
+    text-align: center;
+  }
+
+  &__button {
+    margin-right: 8px;
+    width: 150px;
+    height: 50px;
+    font-family: Larsseit700;
+    font-size: 16px;
+    line-height: 50px;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #F9B640;
+    transition-property: background color;
+    transition-duration: .4s;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover, &:active, &:focus {
+      color: #F9B640;
+      background: none;
+    }
+  }
+}
